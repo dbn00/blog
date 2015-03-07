@@ -31,14 +31,7 @@ if(isset($_POST['enviar'])){
 		}
 
 	}
-/*if(isset ($_POST['enviar'])){ 		// si se ejecuta correctamente (true) imprime en pantalla el resultado, si no no muestra nada.
-	print_r($_POST); 					//para imprimir los resultado del formulario con $_POST 
-	if(!empty($_POST['titulo']) && !empty ($_POST['noticias'])){ // nos aseguramos que han rellenado los 3 campos, con el "&" juntamos funciones
-	
-	$msg="El formulario ha sido enviado";
-}else{ 
-	$msg="Todos los campos son obligatorios";}
-}*/
+
 }
 ?>
 
